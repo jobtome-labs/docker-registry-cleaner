@@ -50,7 +50,7 @@ docker:image:cleanup:env:
 
 docker:image:cleanup:
   stage: stop
-  image: $CI_REGISTRY/docker-registry-cleaner:1.0.0
+  image: $CI_REGISTRY/auxiliary/docker-registry-cleaner:1.0.0
   variables:
     GITLAB_TOKEN_TYPE: job
     GITLAB_TOKEN: $CI_JOB_TOKEN
