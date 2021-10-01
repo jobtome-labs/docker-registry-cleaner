@@ -1,8 +1,14 @@
 # Docker Registry Cleaner (for Gitlab)
 
-This tool utilizes [Gitlab Container Registry API](https://docs.gitlab.com/ee/api/container_registry.html) to facilitate removal of an image repository with all the images included in it.
+This tool utilizes [Gitlab Container Registry API](https://docs.gitlab.com/ee/api/container_registry.html) to facilitate removal of an *image* repository with all the images included inside it.
 
 Note: this tool deliberately disallows deleting the root image repository.
+
+## Rationale
+
+This project is for use with [ci-templates](https://github.com/jobtome-labs/ci-templates).
+
+Contributions are welcome.
 
 ## How to build
 

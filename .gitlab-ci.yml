@@ -8,8 +8,6 @@ stages:
   - deploy
   - stop
 
-variables:
-  FF_GITLAB_REGISTRY_HELPER_IMAGE: "1" # https://docs.gitlab.com/runner/configuration/advanced-configuration.html#migrate-helper-image-to-registrygitlabcom
 
 .tpl:only:mr_master_and_tags:
   only:
